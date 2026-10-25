@@ -1,8 +1,8 @@
 name: daily-portfolio-pipeline
 
 on:
-  schedule:
-    - cron: "0 17 * * 1-5"   # Mon-Fri 17:00 UTC = 18:00 in Nigeria
+  # schedule:
+  #   - cron: "0 17 * * 1-5"   # Mon-Fri 17:00 UTC = 18:00 in Nigeria
   workflow_dispatch:           # manual "Run workflow" button
 
 concurrency:
